@@ -12,6 +12,9 @@ header img {
     float: none;
     clear: left;
 }
+.info h1 + p {
+    font-size: 24px;
+}
 /*= New content */
 .info ol {
     float: right;
