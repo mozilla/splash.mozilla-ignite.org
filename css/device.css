@@ -39,10 +39,10 @@ a:active {
     margin: 0 10px;
     overflow: hidden;
     zoom: 1;
+    position: relative;
 }
 header {
     border-top: 2px solid #686868;
-    position: relative;
 }
 header img {
     margin: 40px 0 20px;
@@ -150,7 +150,7 @@ input[type="submit"] {
     background: -moz-linear-gradient(#ef4619, #ef3219);
     background: -o-linear-gradient(#ef4619, #ef3219);
     background: -webkit-linear-gradient(#ef4619,#ef3219);
-    padding: 0.6em 21px;
+    padding: 0.25em 21px;
     font-size: 26px;
     text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;

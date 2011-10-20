@@ -1,4 +1,78 @@
+/*= Overides from device.css */
+.wrapper {
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
 header img {
     width: auto;
     margin-top: 20px;
+}
+.info p {
+    float: none;
+    clear: left;
+}
+/*= New content */
+.info ol {
+    float: right;
+    width: 67%;
+}
+.cta {
+    padding-bottom: 0.4em;
+}
+.cta h2,
+.cta p {
+    float: left;
+    width: 34%;
+    clear: left;
+}
+.cta h2 {
+    margin-bottom: 0;
+}
+.cta form {
+    float: right;
+    width: 65%;
+}
+.cta .inline label {
+    font-size: 12px;
+}
+input[type="email"] {
+    width: 100%;
+    -moz-box-sizing: border-box;
+}
+
+.external .col {
+    float: left;
+    width: 33%;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+}
+.external .col:first-child {
+    padding-left: 0
+}
+.partners h2 {
+    float: left;
+    line-height: 120px;
+}
+/* For bigger screens */
+@media all and (min-width: 600px) {
+    .info .wrapper {
+        background: url(../img/css/info_graphic.png) no-repeat 0 0 transparent;
+    }
+    h1,
+    h1 + p {
+        padding-left: 320px;
+    }
+    .info h2 {
+        margin-top: 2.2em;
+    }
+    .row {
+        float: left;
+        width: 60%;
+    }
+    input[type="submit"] {
+        width: 33%;
+        margin: 0 0 0 10px;
+        display: inline-block;
+    }
 }
