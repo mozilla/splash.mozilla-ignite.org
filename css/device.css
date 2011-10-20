@@ -1,0 +1,206 @@
+@font-face {
+    font-family: MetaWebPro-Black;
+    src: url(../fonts/MetaWebPro-Black.woff) format('woff');
+}
+body {
+    font-family: Georgia;
+    font-size: 18px;
+}
+h1 {
+    font-family: "MetaWebPro-Black";
+    color: #14233A;
+    font-size: 33px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+h2 {
+    font-family: "MetaWebPro-Black";
+    font-weight: normal;
+    color: #14233A;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active,
+b {
+    color: #ef4619;
+    text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+.wrapper {
+    margin: 0 10px;
+    overflow: hidden;
+    zoom: 1;
+}
+header {
+    border-top: 2px solid #686868;
+    position: relative;
+}
+header img {
+    margin: 40px 0 20px;
+    width: 100%;
+}
+.tab {
+    background: url("../img/title.png") no-repeat scroll 100% 0 transparent;
+    display: block;
+    height: 49px;
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    text-indent: -9999em;
+    top: 0;
+    width: 119px;
+}
+div[role="main"] {
+    background: url(../img/css/bg_info.jpg) repeat-x 0 0 #a2cef1;
+}
+.info ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.info li {
+    background: url(../img/css/icons.png) no-repeat 24px 24px #FFF;
+    padding: 24px;
+    padding-left: 96px;
+    -moz-border-radius: 4px;
+    margin-bottom: 6px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #5C5C5C;
+    box-shadow: 0 2px 0 #6284a4;
+}
+.info .n2 {
+    background-position: 24px -130px;
+}
+.info .n3 {
+    background-position: 24px -280px;
+}
+.info li strong {
+    font-family: "MetaWebPro-Black";
+    font-size: 18px;
+    font-weight: normal;
+    display: block;
+    color: #000;
+    text-transform: uppercase;
+}
+.info p {
+    font-style: italic;
+    color: #000;
+    margin-top: 0;
+    float: left;
+    margin-right: 10px;
+}
+.info h1 + p {
+    font-size: 24px;
+    line-height: 1.4;
+    float: none;
+    margin-right: 0;
+}
+.cta {
+    background: url(../img/css/bg_cta.jpg) no-repeat 75% 0 #1c2a35;
+    color: #D0D0D0;
+    border-top: 1px solid #2d4053;
+}
+.cta h2 {
+    color: #FFF;
+}
+.cta h3 {
+    font-weight: normal;
+    margin-bottom: 0.2em;
+}
+.cta label {
+    font-family: Arial;
+    color: #8a8a8a;
+    position: absolute;
+    left: -9999em;
+    display: block;
+    height: 1px;
+}
+.cta .inline {
+    margin: 0.4em 0;
+}
+.cta .inline label {
+    margin-left: 10px;
+    position: static;
+    display: inline;
+    height: auto;
+    left: 0;
+}
+input[type="email"] {
+    padding: 0.6em 10px;
+}
+input[type="submit"] {
+    margin: 0.2em 0 0.4em;
+    display: block;
+    width: 100%;
+    color: #FFF;
+    border: 1px solid #ef4619;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 5px;
+    background: #ef3219; /* Show a solid color for older browsers */
+    background: -moz-linear-gradient(#ef4619, #ef3219);
+    background: -o-linear-gradient(#ef4619, #ef3219);
+    background: -webkit-linear-gradient(#ef4619,#ef3219);
+    padding: 0.6em 21px;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+        text-decoration: underline;
+}
+.external {
+    background: url(../img/css/bg_external.png) repeat-x 0 0 #FFF;
+}
+.external h2 {
+    padding-top: 40px;
+    color: #2e2e2d;
+    background: url(../img/css/icons.png) no-repeat 0 -440px transparent;
+}
+.moz h2 {
+    background-position: 0 -590px;
+}
+.learn h2 {
+    background-position: 0 -740px;
+}
+.external p {
+    font-size: 14px;
+    color: #454545;
+}
+.external ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.external li {
+    border-top: 1px solid #d8dadc;
+    font-size: 14px;
+    padding: 0.5em 0;
+}
+.external li:first-child {
+    border-top: none;
+}
+.partners {
+    background: url(../img/css/bg_partners.png) repeat-x 0 0 #e7e7e7;
+}
+.partners ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.partners li {
+    margin-left: 10px;
+    float: left;
+}
+.partners li:first-child {
+    margin-left: 0;
+}

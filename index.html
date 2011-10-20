@@ -3,40 +3,87 @@
 <head>
     <title>Mozilla Ignite</title>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <style>
-    input[type="submit"] {
-        display: block;
-        margin: 1em 0;
-    }
-    </style>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/device.css" />
+    <link rel="stylesheet" href="css/desktop.css" media="all and (min-width:320px)" />
     <!--[if lt IE 9]>
         <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
 <body>
-<div id="fb-root"></div>
-<script>
-(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk')
-);
-</script>
-<div class="wrapper">
-<h1>Mozilla ignite</h1>
-<form name="signup" action="https://donate.mozilla.org/page/signup/mozilla-ignite" method="POST">
-    <label for="email">Email&nbsp;<span class="required">*</span></label>
-    <input type="email" required="required" class="text" size="48" id="email" name="email" value="">
-    <p>All sign-ups will be placed into the Mozilla directory. Please read our <a href="http://www.mozilla.org/about/policies/privacy-policy.html">privacy policy</a></p>
-    <input id="custom-431" name="custom-431" type="checkbox" value="1" required="required"><label for="custom-431">I agree to Mozilla's privacy policy <span class="required">*</span></label>
-    <input name="submit-btn" value="Submit Form" type="submit">
-</form>
-<a href="https://twitter.com/mozilla" class="twitter-follow-button" data-show-count="false">Follow @mozilla</a>
-<div class="fb-like" data-href="https://www.facebook.com/mozilladrumbeat/" data-send="false" data-width="450" data-show-faces="false" data-font="arial"></div>
-<script src="//platform.twitter.com/widgets.js" type="text/javascript"></script>
+<header>
+    <div class="wrapper">
+        <img src="img/logo.jpg" alt="mozilla + US Ignite width="332" height="51" />
+        <a class="tab" href="http://www.mozilla.org">mozilla</a>
+    </div>
+</header>
+<div role="main">
+    <section class="info">
+        <div class="wrapper">
+            <h1>The Mozilla Ignite Apps Challenge</h1>
+            <p>1 Gigabit per second. Up and down. 250x faster than what we have now. What could you do with that speed?
+            Mozilla, the National Science Foundation, and the White House are launching an open innovation challenge to find out. And we're giving you access to 3 things to help:</p>
+            <ol>
+                <li><strong>The GENI Sandbox</strong>An existing 1 Gbps network where you can build, test, and play.</li>
+                <li class="n2"><strong>The Mozilla community</strong>the Mozilla Developer Network, WebFWD, and all our experience on how to develop for the open web.</li>
+                <li class="n3"><strong>Funding</strong>And $500,000 in funding to help the best ideas get built.</li>
+            </ol>
+            <h2>What becomes possible?</h2>
+            <p>What would the web look like?</p>
+            <p> What applications could you build?</p>
+        </div>
+    </section>
+    <section class="cta">
+        <div class="wrapper">
+            <h2>Coming soon!</h2>
+            <p>The Mozilla Ignite Apps Challenge will open in January 2012. In the meantime, please follow us and spread the word. We'll let you know when we it's live.</p>
+            <h3>Let me know when the challenge is open</h3>
+            <form name="signup" action="https://donate.mozilla.org/page/signup/mozilla-ignite" method="POST">
+                <div class="row">
+                <label for="email">Email&nbsp;<span class="required">*</span></label>
+                <input type="email" required="required" placeholder="Enter email address" class="text" size="48" id="email" name="email" value="">
+                </div>
+                <div class="row inline">
+                <input id="custom-431" name="custom-431" type="checkbox" value="1" required="required"><label for="custom-431">I want to receive updates from Ignite and Mozilla, and I agree to their <a href="http://www.mozilla.org/about/policies/privacy-policy.html">privacy policy</a> <span class="required">*</span></label>
+                </div>
+                <input name="submit-btn" value="Update me" type="submit">
+            </form>
+        </div>
+    </section>
+    <aside>
+        <section class="external">
+            <div class="wrapper">
+                <div class="col tweet">
+                    <h2>Follow and tweet</h2>
+                    <p>What becomes possible at 1GBps? What's the future of the web? Tweet your ideas with the tags <b>#mozignite</b> and <b>#usignite</b>. (And we might just give you a treat)</p>
+                </div>
+                <div class="col moz">
+                    <h2>Connect with Mozilla</h2>
+                    <ul>
+                        <li><a href="#">Learn about Mozilla's mission</a></li>
+                        <li><a href="#">Join Mozilla</a></li>
+                    </ul>
+                </div>
+                <div class="col learn">
+                    <h2>Learn more</h2>
+                    <ul>
+                        <li><a href="#">Learn about Mozilla's mission</a></li>
+                        <li><a href="#">Join Mozilla</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="wrapper">
+                <h2>Our partners</h2>
+                <ul>
+                    <li><a href="http://www.nsf.gov"><img src="img/partners/nsf.png" height="100" width="120" alt="NSF" /></a></li>
+                    <li><a href="http://www.geni.net"><img src="img/partners/geni.png" width="120" height="100" alt="geni - exploring networks of the future" /></a></li>
+                </ul>
+            </div>
+        </section>
+    </aside>
 </div>
 </body>
 </html>
