@@ -46,7 +46,6 @@ header {
 }
 header img {
     margin: 40px 0 20px;
-    width: 100%;
 }
 .tab {
     background: url("../img/title.png") no-repeat scroll 100% 0 transparent;
@@ -58,6 +57,9 @@ header img {
     text-indent: -9999em;
     top: 0;
     width: 119px;
+}
+#art {
+    display: none;
 }
 div[role="main"] {
     background: url(../img/css/bg_info.jpg) repeat-x 0 0 #a2cef1;

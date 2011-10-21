@@ -8,6 +8,16 @@ header img {
     width: auto;
     margin-top: 20px;
 }
+#art {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+.info {
+    position: relative;
+}
 .info p {
     float: none;
     clear: left;
