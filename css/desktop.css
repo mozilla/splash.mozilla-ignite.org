@@ -30,6 +30,16 @@ header img {
     float: right;
     width: 67%;
 }
+.info li {
+    background: url("../img/css/icons.png") 24px 24px no-repeat, url("../img/css/squiggles.jpg") 0 0 no-repeat;
+    background-color: #FFF;
+}
+.info .n2 {
+    background-position: 24px -130px, 90% -201px;
+}
+.info .n3 {
+    background-position: 24px -280px, 46% -417px;
+}
 .cta {
     padding-bottom: 0.4em;
 }
