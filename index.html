@@ -42,10 +42,10 @@
                 <h3>Let me know when the challenge is open</h3>
                 <div class="row">
                 <label for="email">Email&nbsp;<span class="required">*</span></label>
-                <input type="email" required="required" placeholder="Enter email address" class="text" size="48" id="email" name="email" value="">
+                <input type="email" required placeholder="Enter email address" class="text" size="48" id="email" name="email" value="">
                 </div>
                 <div class="row inline">
-                <input id="custom-431" name="custom-431" type="checkbox" value="1" required="required"><label for="custom-431">I want to receive updates from Ignite and Mozilla, and I agree to their <a href="http://www.mozilla.org/about/policies/privacy-policy.html">privacy policy</a> <span class="required">*</span></label>
+                <input id="custom-431" name="custom-431" type="checkbox" value="1" required><label for="custom-431">I want to receive updates from Ignite and Mozilla, and I agree to their <a href="http://www.mozilla.org/about/policies/privacy-policy.html">privacy policy</a> <span class="required">*</span></label>
                 </div>
                 <input name="submit-btn" value="Update me" type="submit">
             </form>
@@ -89,5 +89,20 @@
         </section>
     </aside>
 </div>
+<script src="js/livevalidation.js"></script>
+<script>
+(function() {
+    var ignite = {};
+    ignite.set_form = function() {
+        var email, accept;
+        email = new LiveValidation('email', {onlyOnSubmit: true });
+        email.add( Validate.Presence, { failureMessage: 'Please provide us with an email address'});
+        email.add( Validate.Email, { failureMessage: 'Please use a valid email address' } );
+        policy = new LiveValidation('custom-431', {onlyOnSubmit: true});
+        policy.add( Validate.Acceptance, { failureMessage: 'Please accept our privacy policy' });
+    }
+    ignite.set_form();
+})();
+</script>
 </body>
 </html>

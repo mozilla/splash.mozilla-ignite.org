@@ -72,7 +72,9 @@ div[role="main"] {
     background: url(../img/css/icons.png) no-repeat 24px 24px #FFF;
     padding: 24px;
     padding-left: 96px;
+    -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
+    border-radius: 4px;
     margin-bottom: 6px;
     font-family: Arial;
     font-size: 12px;
@@ -137,6 +139,9 @@ div[role="main"] {
 }
 input[type="email"] {
     padding: 0.6em 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 input[type="submit"] {
     margin: 0.2em 0 0.4em;
@@ -146,7 +151,7 @@ input[type="submit"] {
     border: 1px solid #ef4619;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    border-radius: 5px;
+    border-radius: 4px;
     background: #ef3219; /* Show a solid color for older browsers */
     background: -moz-linear-gradient(#ef4619, #ef3219);
     background: -o-linear-gradient(#ef4619, #ef3219);
@@ -204,4 +209,23 @@ input[type="submit"]:hover {
 }
 .partners li:first-child {
     margin-left: 0;
+}
+/* form validation polyfill */
+.LV_invalid {
+    color: #EF4619;
+    margin-top: 0.2em;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* I neither approve or want this field appearing */
+.LV_valid {
+    display: none;
+}
+div.row {
+    position: relative;
+}
+input.LV_invalid_field {
+    margin-top: 2em;
 }
