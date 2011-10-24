@@ -166,6 +166,26 @@ input[type="submit"] {
 input[type="submit"]:hover {
         text-decoration: underline;
 }
+/* BSD overrides */
+#signup label {
+    position: static;
+    height: auto;
+    font-size: 12px;
+}
+#signup div.custom-431 label.field {
+    font-size: 14px;
+    color: #D0D0D0;
+    margin-bottom: 0.3em;
+}
+#signup input[type=checkbox] {
+    float: left;
+    margin-right: 10px;
+}
+#signup input[type=submit] {
+    display: block;
+    width: auto;
+    margin: 0;
+}
 .external {
     background: url(../img/css/bg_external.png) repeat-x 0 0 #FFF;
 }
