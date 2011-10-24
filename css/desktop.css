@@ -56,6 +56,10 @@ header img {
 .cta h2 {
     margin-bottom: 0;
 }
+#complete h2,
+#complete p {
+    width: auto;
+}
 .cta form {
     float: right;
     width: 65%;
