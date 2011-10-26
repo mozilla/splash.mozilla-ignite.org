@@ -46,6 +46,7 @@ header {
 }
 header img {
     margin: 40px 0 20px;
+    width: 100%;
 }
 .tab {
     background: url("../img/title.png") no-repeat scroll 100% 0 transparent;
