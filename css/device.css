@@ -194,6 +194,9 @@ input[type="submit"]:hover {
     color: #2e2e2d;
     background: url(../img/css/icons.png) no-repeat 0 -440px transparent;
 }
+.tweet a {
+    font-weight: bold;
+}
 .moz h2 {
     background-position: 0 -590px;
 }
