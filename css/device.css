@@ -233,6 +233,30 @@ div[role="main"] {
     float: none;
     margin-right: 0;
 }
+.judges {
+    padding-left: 0;
+}
+.content .judges .hcard {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 1em 0 1em 100px;
+    position: relative;
+    list-style-type: none;
+}
+.judges .hcard .url {
+    font-size: 11px;
+    margin-top: -1.5em;
+    margin-bottom: 1em;
+    float: left;
+}
+.judges .hcard .bio {
+    font-size: 12px;
+}
+.judges .hcard .frame {
+    width: 90px;
+    position: absolute;
+    top: 1em;
+    left: 0;
+}
 .cta {
     background: url(../img/css/bg_cta.jpg) no-repeat 75% 0 #1c2a35;
     color: #D0D0D0;
