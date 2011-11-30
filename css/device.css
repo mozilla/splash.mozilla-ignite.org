@@ -14,12 +14,27 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 0.2em;
 }
+.content h1 {
+    font-family: Arial;
+    font-size: 60px;
+    color: #333;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: bold;
+    text-transform: none;
+    padding-bottom: 0.2em;
+}
 h2 {
     font-family: "MetaWebPro-Black";
     font-weight: normal;
     color: #14233A;
     font-size: 18px;
     text-transform: uppercase;
+}
+.content .info h2 {
+    text-transform: none;
+    font-family: Arial;
+    color: #333;
+    font-size: 24px;
 }
 a:link,
 a:visited,
@@ -94,6 +109,12 @@ header img {
 div[role="main"] {
     background: url(../img/css/bg_info.jpg) repeat-x 0 0 #a2cef1;
 }
+.content div[role="main"] {
+    padding-top: 3em;
+}
+.content .info {
+    background: #fff;
+}
 .info ol {
     list-style-type: none;
     padding-left: 0;
@@ -110,6 +131,22 @@ div[role="main"] {
     font-size: 12px;
     color: #5C5C5C;
     box-shadow: 0 2px 0 #6284a4;
+}
+.content .info nav ul {
+    padding-left: 10px;
+    margin: 0;
+}
+.content .info nav li {
+    background: none;
+    padding: 0; 
+    box-shadow: none;
+}
+.content .info nav a {
+    padding: 0.2em 0.4em;
+}
+.content .info nav .active a {
+    background: #000;
+    color: #fff !important;
 }
 .info .n2 {
     background-position: 24px -130px;
