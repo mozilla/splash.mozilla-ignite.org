@@ -36,6 +36,11 @@ h2 {
     color: #333;
     font-size: 24px;
 }
+.content .info h3 {
+    font-family: Arial;
+    font-size: 18px;
+    color: #333;
+}
 a:link,
 a:visited,
 a:focus,
@@ -49,6 +54,23 @@ a:focus,
 a:hover,
 a:active {
     text-decoration: underline;
+}
+figcaption {
+    padding: 1em 0;
+    font-family: Arial;
+    font-size: 11px;
+    color: #5c5c5c;
+    border-bottom: 1px solid #e8e8e8;
+}
+blockquote {
+    border-left: 10px solid #000;
+    background: #f3f3f3;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #5c5c5c;
+    padding: 0.5em 1em;
+    margin-left: 0;
+    margin-right: 0;
 }
 .wrapper {
     margin: 0 10px;
@@ -115,6 +137,24 @@ div[role="main"] {
 .content .info {
     background: #fff;
 }
+
+.frame {
+    float: left;
+    margin-right: 10px;
+    padding: 4px;
+    margin-bottom: 0.4em;
+    background: #fff;
+    border:1px solid #dcdcdc;
+    box-shadow: 0 3px 3px #bdbdbd;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.frame img {
+    width: 100%;
+    height: auto;
+}
 .info ol {
     list-style-type: none;
     padding-left: 0;
@@ -147,6 +187,25 @@ div[role="main"] {
 .content .info nav .active a {
     background: #000;
     color: #fff !important;
+}
+.content .copy p {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #5c5c5c;
+    font-style: normal;
+}
+.content .copy ol {
+    list-style-type: decimal;
+    float: none;
+    width: auto;
+    padding-left: 40px;
+}
+.content .copy li {
+    background: none;
+    font-size: 18px;
+    padding: 0.1em 0;
+    box-shadow: none;
 }
 .info .n2 {
     background-position: 24px -130px;
