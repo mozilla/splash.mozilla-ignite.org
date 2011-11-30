@@ -98,6 +98,11 @@ input[type="email"] {
     h1 + p {
         padding-left: 320px;
     }
+    header nav {
+        float: right;
+        clear: none;
+        padding-right: 130px;
+    }
     .info h2 {
         margin-top: 2.2em;
     }
@@ -109,5 +114,10 @@ input[type="email"] {
         width: 33%;
         margin: 0 0 0 10px;
         display: inline-block;
+    }
+}
+@media all and (max-width: 700px) {
+    header nav {
+        float: left;
     }
 }

@@ -44,9 +44,38 @@ a:active {
 header {
     border-top: 2px solid #686868;
 }
+header nav {
+    clear: left;
+}
+header nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header nav li {
+    float: left;
+    border-left: 1px solid #e8e8e8;
+}
+header nav li:first-child {
+    border-left: none;
+}
+header nav .active a {
+    font-weight: bold;
+}
+header nav a {
+    float: left;
+    padding: 2em 20px;
+    font-size: 11px;
+    color: #333 !important;
+}
 header img {
     margin: 40px 0 20px;
     width: 100%;
+}
+.home {
+    display: block;
+    float: left;
 }
 .tab {
     background: url("../img/title.png") no-repeat scroll 100% 0 transparent;
