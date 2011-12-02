@@ -106,7 +106,7 @@ header nav .active a {
 }
 header nav a {
     float: left;
-    padding: 1.5em 20px;
+    padding: 1em;
     font-size: 12px;
     color: #F3F3F3 !important;
 }
@@ -379,6 +379,7 @@ input[type="submit"]:hover {
 }
 .external li:first-child {
     border-top: none;
+    padding-top: 0;
 }
 .partners {
     background: url(../img/css/bg_partners.png) repeat-x 0 0 #e7e7e7;
