@@ -5,6 +5,8 @@
 body {
     font-family: Georgia;
     font-size: 18px;
+    background: #A2CEF1;
+    border-top: 0.5em solid #fff;
 }
 h1 {
     font-family: "MetaWebPro-Black";
@@ -80,6 +82,8 @@ blockquote {
 }
 header {
     border-top: 2px solid #686868;
+    background: #000;
+    background: rgba(0, 0, 0, 0.8);
 }
 header nav {
     clear: left;
@@ -92,7 +96,7 @@ header nav ul {
 }
 header nav li {
     float: left;
-    border-left: 1px solid #e8e8e8;
+    border-left: 1px solid #686868;
 }
 header nav li:first-child {
     border-left: none;
@@ -102,9 +106,9 @@ header nav .active a {
 }
 header nav a {
     float: left;
-    padding: 2em 20px;
-    font-size: 11px;
-    color: #333 !important;
+    padding: 1.5em 20px;
+    font-size: 12px;
+    color: #F3F3F3 !important;
 }
 header img {
     margin: 40px 0 20px;
