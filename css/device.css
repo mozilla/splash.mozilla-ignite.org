@@ -4,7 +4,8 @@
 }
 body {
     font-family: Georgia;
-    font-size: 18px;
+    font-size: 16px;
+	background-color: black;
 }
 h1 {
     font-family: "MetaWebPro-Black";
@@ -86,13 +87,13 @@ header nav {
 }
 header nav ul {
     overflow: hidden;
-    margin: 0;
+    margin-top: 4px;
     padding: 0;
     font-family: Arial;
 }
 header nav li {
     float: left;
-    border-left: 1px solid #e8e8e8;
+    border-left: 1px dotted #e8e8e8;
 }
 header nav li:first-child {
     border-left: none;
@@ -102,12 +103,12 @@ header nav .active a {
 }
 header nav a {
     float: left;
-    padding: 2em 20px;
-    font-size: 11px;
-    color: #333 !important;
+    padding: 1em 20px;
+    font-size: 14px;
+    color: #D0D0D0 !important;
 }
 header img {
-    margin: 40px 0 20px;
+    margin: 40px 0 10px;
     width: 100%;
 }
 .home {
@@ -132,10 +133,11 @@ div[role="main"] {
     background: url(../img/css/bg_info.jpg) repeat-x 0 0 #a2cef1;
 }
 .content div[role="main"] {
-    padding-top: 3em;
+    padding-top: 1em;
 }
 .content .info {
     background: #fff;
+    margin: 25px;
 }
 
 .frame {
@@ -270,7 +272,7 @@ div[role="main"] {
     border-top: 1px solid #2d4053;
 }
 .cta h2 {
-    color: #FFF;
+    color: #fff;
 }
 .cta h3 {
     font-weight: normal;
@@ -314,14 +316,14 @@ input[type="submit"] {
     background: -o-linear-gradient(#ef4619, #ef3219);
     background: -webkit-linear-gradient(#ef4619,#ef3219);
     padding: 0.25em 21px;
-    font-size: 26px;
+    font-size: 20px;
     text-transform: uppercase;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "MetaWebPro-Black",Helvetica,Arial,sans-serif;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
 input[type="submit"]:hover {
-        text-decoration: underline;
+    color: #C8C8C8;
 }
 /* BSD overrides */
 #signup label {
@@ -345,6 +347,8 @@ input[type="submit"]:hover {
 }
 .external {
     background: url(../img/css/bg_external.png) repeat-x 0 0 #FFF;
+	height: 300px;
+	padding-top: 2em;
 }
 .external h2 {
     padding-top: 40px;
@@ -377,7 +381,7 @@ input[type="submit"]:hover {
     border-top: none;
 }
 .partners {
-    background: url(../img/css/bg_partners.png) repeat-x 0 0 #e7e7e7;
+    background: #ffffff;
 }
 .partners ul {
     list-style-type: none;

@@ -27,7 +27,7 @@ header img {
     clear: left;
 }
 .info h1 + p {
-    font-size: 24px;
+    font-size: 22px;
 }
 .content h1,
 .content .info h2 {
@@ -44,6 +44,7 @@ header img {
 /*= New content */
 .info ol {
     float: right;
+    padding-left: 20px;
     width: 67%;
 }
 .info li {
@@ -101,6 +102,10 @@ input[type="email"] {
     float: left;
     line-height: 120px;
 }
+.partners li {
+	margin-right:10px;
+}
+
 /* For bigger screens */
 @media all and (min-width: 600px) {
     .info .wrapper {
