@@ -1,11 +1,10 @@
 /*= Overides from device.css */
 .wrapper {
-    max-width: 960px;
+    max-width: 980px;
     padding: 0 10px;
     margin: 0 auto;
 }
 header img {
-    width: auto;
     margin-top: 20px;
 }
 .info {
@@ -44,7 +43,6 @@ header img {
 /*= New content */
 .info ol {
     float: right;
-    padding-left: 20px;
     width: 67%;
 }
 .info li {
@@ -100,7 +98,7 @@ input[type="email"] {
 }
 .partners h2 {
     float: left;
-    line-height: 120px;
+    line-height: 75px;
 }
 .partners li {
 	margin-right:10px;
@@ -125,6 +123,9 @@ input[type="email"] {
         float: right;
         clear: none;
         padding-right: 130px;
+    }
+    .info h1 + p {
+        padding-bottom: 3em;
     }
     .info h2 {
         margin-top: 2.2em;
