@@ -6,7 +6,6 @@ body {
     font-family: Georgia;
     font-size: 16px;
 	background-color: #A2CEF1;
-    border-top: 0.5em solid #fff;
 }
 h1 {
     font-family: "MetaWebPro-Black";
@@ -351,6 +350,7 @@ input[type="submit"]:hover {
 }
 .external {
     background: url(../img/css/bg_external.png) repeat-x 0 0 #FFF;
+    padding-top: 10px;
 }
 .external h2 {
     padding-top: 40px;

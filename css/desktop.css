@@ -125,7 +125,7 @@ input[type="email"] {
         padding-right: 130px;
     }
     .info h1 + p {
-        padding-bottom: 3em;
+        padding-bottom: .5em;
     }
     .info h2 {
         margin-top: 2.2em;
