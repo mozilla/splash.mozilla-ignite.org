@@ -1,0 +1,149 @@
+/*= Overides from device.css */
+.wrapper {
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+header img {
+    width: auto;
+    margin-top: 20px;
+}
+.info {
+    position: relative;
+}
+.info:before {
+    content: "&nbsp;";
+    text-indent: -9999em;
+    background: transparent url(../img/header-artwork.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.info p {
+    float: none;
+    clear: left;
+}
+.info h1 + p {
+    font-size: 22px;
+}
+.content h1,
+.content .info h2 {
+    width: 70%;
+}
+.content .info .copy {
+    float: left;
+    width: 69%;
+}
+.content .info nav {
+    float: right;
+    width: 30%;
+}
+/*= New content */
+.info ol {
+    float: right;
+    padding-left: 20px;
+    width: 67%;
+}
+.info li {
+    background: url("../img/css/icons.png") 24px 24px no-repeat, url("../img/css/squiggles.jpg") 0 0 no-repeat;
+    background-color: #FFF;
+}
+.info .n2 {
+    background-position: 24px -130px, 90% -201px;
+}
+.info .n3 {
+    background-position: 24px -280px, 46% -417px;
+}
+.cta {
+    padding-bottom: 0.4em;
+}
+.cta h2,
+.cta p {
+    float: left;
+    width: 34%;
+    clear: left;
+}
+.cta h2 {
+    margin-bottom: 0;
+}
+#complete h2,
+#complete p {
+    width: auto;
+}
+.cta form {
+    float: right;
+    width: 65%;
+}
+.cta .inline label {
+    font-size: 12px;
+}
+input[type="email"] {
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.external .col {
+    float: left;
+    width: 33%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.external .col:first-child {
+    padding-left: 0
+}
+.partners h2 {
+    float: left;
+    line-height: 120px;
+}
+.partners li {
+	margin-right:10px;
+}
+
+/* For bigger screens */
+@media all and (min-width: 600px) {
+    .info .wrapper {
+        background: url(../img/css/info_graphic.png) no-repeat 0 0 transparent;
+    }
+    .content .info .wrapper {
+        background: none;
+    }
+    h1,
+    h1 + p {
+        padding-left: 320px;
+    }
+    .content h1 {
+        padding-left: 0;
+    }
+    header nav {
+        float: right;
+        clear: none;
+        padding-right: 130px;
+    }
+    .info h2 {
+        margin-top: 2.2em;
+    }
+    .content .info h2 {
+        margin-top: 0.2em;
+    }
+    .row {
+        float: left;
+        width: 60%;
+    }
+    input[type="submit"] {
+        width: 33%;
+        margin: 0 0 0 10px;
+        display: inline-block;
+    }
+}
+@media all and (max-width: 700px) {
+    header nav {
+        float: left;
+    }
+}

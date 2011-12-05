@@ -1,0 +1,415 @@
+@font-face {
+    font-family: MetaWebPro-Black;
+    src: url(../fonts/MetaWebPro-Black.woff) format('woff');
+}
+body {
+    font-family: Georgia;
+    font-size: 16px;
+	background-color: black;
+}
+h1 {
+    font-family: "MetaWebPro-Black";
+    color: #14233A;
+    font-size: 33px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+.content h1 {
+    font-family: Arial;
+    font-size: 60px;
+    color: #333;
+    border-bottom: 1px solid #e8e8e8;
+    font-weight: bold;
+    text-transform: none;
+    padding-bottom: 0.2em;
+}
+h2 {
+    font-family: "MetaWebPro-Black";
+    font-weight: normal;
+    color: #14233A;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.content .info h2 {
+    text-transform: none;
+    font-family: Arial;
+    color: #333;
+    font-size: 24px;
+}
+.content .info h3 {
+    font-family: Arial;
+    font-size: 18px;
+    color: #333;
+}
+a:link,
+a:visited,
+a:focus,
+a:hover,
+a:active,
+b {
+    color: #ef4619;
+    text-decoration: none;
+}
+a:focus,
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+figcaption {
+    padding: 1em 0;
+    font-family: Arial;
+    font-size: 11px;
+    color: #5c5c5c;
+    border-bottom: 1px solid #e8e8e8;
+}
+blockquote {
+    border-left: 10px solid #000;
+    background: #f3f3f3;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #5c5c5c;
+    padding: 0.5em 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.wrapper {
+    margin: 0 10px;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+}
+header {
+    border-top: 2px solid #686868;
+}
+header nav {
+    clear: left;
+}
+header nav ul {
+    overflow: hidden;
+    margin-top: 4px;
+    padding: 0;
+    font-family: Arial;
+}
+header nav li {
+    float: left;
+    border-left: 1px dotted #e8e8e8;
+}
+header nav li:first-child {
+    border-left: none;
+}
+header nav .active a {
+    font-weight: bold;
+}
+header nav a {
+    float: left;
+    padding: 1em 20px;
+    font-size: 14px;
+    color: #D0D0D0 !important;
+}
+header img {
+    margin: 40px 0 10px;
+    width: 100%;
+}
+.home {
+    display: block;
+    float: left;
+}
+.tab {
+    background: url("../img/title.png") no-repeat scroll 100% 0 transparent;
+    display: block;
+    height: 49px;
+    overflow: hidden;
+    position: absolute;
+    right: 20px;
+    text-indent: -9999em;
+    top: 0;
+    width: 119px;
+}
+#art {
+    display: none;
+}
+div[role="main"] {
+    background: url(../img/css/bg_info.jpg) repeat-x 0 0 #a2cef1;
+}
+.content div[role="main"] {
+    padding-top: 1em;
+}
+.content .info {
+    background: #fff;
+    margin: 25px;
+}
+
+.frame {
+    float: left;
+    margin-right: 10px;
+    padding: 4px;
+    margin-bottom: 0.4em;
+    background: #fff;
+    border:1px solid #dcdcdc;
+    box-shadow: 0 3px 3px #bdbdbd;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.frame img {
+    width: 100%;
+    height: auto;
+}
+.info ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.info li {
+    background: url(../img/css/icons.png) no-repeat 24px 24px #FFF;
+    padding: 24px;
+    padding-left: 96px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    font-family: Arial;
+    font-size: 12px;
+    color: #5C5C5C;
+    box-shadow: 0 2px 0 #6284a4;
+}
+.content .info nav h2 {
+    font-family: Arial;
+    font-size: 12px;
+    color: #5c5c5c;
+    margin-bottom: 6px;
+    margin-left: 14px;
+}
+.content .info nav ul {
+    padding-left: 10px;
+    margin: 0;
+}
+.content .info nav li {
+    background: none;
+    padding: 0; 
+    box-shadow: none;
+}
+.content .info nav a {
+    padding: 0.2em 0.4em;
+}
+.content .info nav .active a {
+    background: #000;
+    color: #fff !important;
+}
+.content .copy p {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #5c5c5c;
+    font-style: normal;
+}
+.content .copy ol {
+    list-style-type: decimal;
+    float: none;
+    width: auto;
+    padding-left: 40px;
+}
+.content .copy li {
+    background: none;
+    font-size: 18px;
+    padding: 0.1em 0;
+    box-shadow: none;
+}
+.info .n2 {
+    background-position: 24px -130px;
+}
+.info .n3 {
+    background-position: 24px -280px;
+}
+.info li strong {
+    font-family: "MetaWebPro-Black";
+    font-size: 18px;
+    font-weight: normal;
+    display: block;
+    color: #000;
+    text-transform: uppercase;
+}
+.info p {
+    font-style: italic;
+    color: #000;
+    margin-top: 0;
+    float: left;
+    margin-right: 10px;
+}
+.info h1 + p {
+    line-height: 1.4;
+    float: none;
+    margin-right: 0;
+}
+.judges {
+    padding-left: 0;
+}
+.content .judges .hcard {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 1em 0 1em 100px;
+    position: relative;
+    list-style-type: none;
+}
+.judges .hcard .url {
+    font-size: 11px;
+    margin-top: -1.5em;
+    margin-bottom: 1em;
+    float: left;
+}
+.judges .hcard .bio {
+    font-size: 12px;
+}
+.judges .hcard .frame {
+    width: 90px;
+    position: absolute;
+    top: 1em;
+    left: 0;
+}
+.cta {
+    background: url(../img/css/bg_cta.jpg) no-repeat 75% 0 #1c2a35;
+    color: #D0D0D0;
+    border-top: 1px solid #2d4053;
+}
+.cta h2 {
+    color: #fff;
+}
+.cta h3 {
+    font-weight: normal;
+    margin-bottom: 0.2em;
+}
+.cta label {
+    font-family: Arial;
+    color: #8a8a8a;
+    position: absolute;
+    left: -9999em;
+    display: block;
+    height: 1px;
+}
+.cta .inline {
+    margin: 0.4em 0;
+}
+.cta .inline label {
+    margin-left: 10px;
+    position: static;
+    display: inline;
+    height: auto;
+    left: 0;
+}
+input[type="email"] {
+    padding: 0.6em 10px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    margin: 0.2em 0 0.4em;
+    display: block;
+    width: 100%;
+    color: #FFF;
+    border: 1px solid #ef4619;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: #ef3219; /* Show a solid color for older browsers */
+    background: -moz-linear-gradient(#ef4619, #ef3219);
+    background: -o-linear-gradient(#ef4619, #ef3219);
+    background: -webkit-linear-gradient(#ef4619,#ef3219);
+    padding: 0.25em 21px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "MetaWebPro-Black",Helvetica,Arial,sans-serif;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    color: #C8C8C8;
+}
+/* BSD overrides */
+#signup label {
+    position: static;
+    height: auto;
+    font-size: 12px;
+}
+#signup div.custom-431 label.field {
+    font-size: 14px;
+    color: #D0D0D0;
+    margin-bottom: 0.3em;
+}
+#signup input[type=checkbox] {
+    float: left;
+    margin-right: 10px;
+}
+#signup input[type=submit] {
+    display: block;
+    width: auto;
+    margin: 0;
+}
+.external {
+    background: url(../img/css/bg_external.png) repeat-x 0 0 #FFF;
+	height: 300px;
+	padding-top: 2em;
+}
+.external h2 {
+    padding-top: 40px;
+    color: #2e2e2d;
+    background: url(../img/css/icons.png) no-repeat 0 -440px transparent;
+}
+.tweet a {
+    font-weight: bold;
+}
+.moz h2 {
+    background-position: 0 -590px;
+}
+.learn h2 {
+    background-position: 0 -740px;
+}
+.external p {
+    font-size: 14px;
+    color: #454545;
+}
+.external ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.external li {
+    border-top: 1px solid #d8dadc;
+    font-size: 14px;
+    padding: 0.5em 0;
+}
+.external li:first-child {
+    border-top: none;
+}
+.partners {
+    background: #ffffff;
+}
+.partners ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.partners li {
+    margin-left: 10px;
+    float: left;
+}
+.partners li:first-child {
+    margin-left: 0;
+}
+/* form validation polyfill */
+.LV_invalid {
+    color: #EF4619;
+    margin-top: 0.2em;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* I neither approve or want this field appearing */
+.LV_valid {
+    display: none;
+}
+div.row {
+    position: relative;
+}
+input.LV_invalid_field {
+    margin-top: 2em;
+}
