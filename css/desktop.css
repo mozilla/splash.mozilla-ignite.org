@@ -125,10 +125,10 @@ input[type="email"] {
         padding-right: 130px;
     }
     .info h1 + p {
-        padding-bottom: 3em;
+        padding-bottom: 0.5em;
     }
     .info h2 {
-        margin-top: 2.2em;
+        margin-top: 5em;
     }
     .content .info h2 {
         margin-top: 0.2em;
