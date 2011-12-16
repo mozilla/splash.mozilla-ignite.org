@@ -41,9 +41,14 @@ header img {
     width: 30%;
 }
 /*= New content */
-.info ol {
+.access {
     float: right;
     width: 67%;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.access h2 {
+    margin-top: 0;
 }
 .info li {
     background: url("../img/css/icons.png") 24px 24px no-repeat, url("../img/css/squiggles.jpg") 0 0 no-repeat;
@@ -74,6 +79,7 @@ header img {
 .cta form {
     float: right;
     width: 65%;
+    margin-top: 1em;
 }
 .cta .inline label {
     font-size: 12px;
@@ -126,9 +132,6 @@ input[type="email"] {
     }
     .info h1 + p {
         padding-bottom: 0.5em;
-    }
-    .info h2 {
-        margin-top: 5em;
     }
     .content .info h2 {
         margin-top: 0.2em;
